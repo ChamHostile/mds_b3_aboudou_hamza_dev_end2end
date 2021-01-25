@@ -1,6 +1,5 @@
 
 module.exports = {
-  /*
   'Open Uber Website' : function(browser) {
     browser
       .url('https://www.uber.com/fr/fr')
@@ -8,8 +7,8 @@ module.exports = {
       .assert.titleContains('Uber')
       .assert.elementPresent('head')
       .end();
-  },*/
-/*
+  },
+
   'Check block login in the header wrapper' : function(browser) {
     browser
       .url('https://www.uber.com/fr/fr')
@@ -19,11 +18,9 @@ module.exports = {
       .assert.visible('//*[@id="main"]/nav/div/ul[3]/li[2]/button', 'Sign up button is visible')
       .useCss()
       .end();
-  },*/
+  },
 
-  /*root/div/div/div[2]/div/div[3]/div/div[2]/div/section/div/div/div/div/div[1]/a*/
-
-    /*'Check both section button' : function(browser) {
+    'Check both section button' : function(browser) {
     browser
       .url('https://www.uber.com/fr/fr')
       .waitForElementVisible('body')
@@ -33,8 +30,8 @@ module.exports = {
       .assert.visible('//*[@id="root"]/div/div/div[2]/div/div[3]/div/div[2]/div/section/div/div/div/div/div[3]/a', 'passenger block is visible')      
       .useCss()
       .end();
-  },*/
-/*
+  },
+
   'Check login chauffeur section' : function(browser) {
     browser
       .url('https://www.uber.com/fr/fr')
@@ -49,9 +46,9 @@ module.exports = {
       .assert.urlContains('next_url=https%3A%2F%2Fdrivers.uber.com', 'Redirect is correct')
       .assert.visible('#useridInput', 'input mail exists')
       .end();
-  },*/
+  },
 
-  /*'Check login passager section' : function(browser) {
+  'Check login passager section' : function(browser) {
     browser
       .url('https://www.uber.com/fr/fr')
       .waitForElementVisible('body')
@@ -72,9 +69,9 @@ module.exports = {
       .assert.visible('//*[@id="app-content"]/div/div/div/div/div/a[1]', 'Facebook login link is visible')
       .assert.visible('//*[@id="app-content"]/div/div/div/div/div/a[2]', 'Google login link is visible')
       .end();
-  },*/
+  },
 
-    /*'Check both section button registration' : function(browser) {
+    'Check both section button registration' : function(browser) {
     browser
       .url('https://www.uber.com/fr/fr')
       .waitForElementVisible('body')
@@ -95,8 +92,8 @@ module.exports = {
       .assert.visible('//*[@id="maincontent"]/div[2]/div/form/div[11]/button', 'Submit button exists')
       .assert.urlContains('https://www.uber.com/a/join-new', 'URL is correct')
       .end();
-    },*/
-/*
+    },
+
     'Check register devenir professional section' : function(browser) {
     browser
       .url('https://www.uber.com/fr/fr')
@@ -135,9 +132,9 @@ module.exports = {
       .assert.visible('#addPassword', 'Input password exists')
       .assert.visible('#answerForm > button', 'Submit button exists')
       .end();
-    },*/
+    },
 
-    /*'Check registration doesnt pass' : function(browser) {
+    'Check registration doesnt pass' : function(browser) {
     browser
       .url('https://www.uber.com/fr/fr')
       .waitForElementVisible('body')
@@ -152,7 +149,7 @@ module.exports = {
       .assert.containsText('#error-caption-mobile', "This phone number is invalid", 'Error appears on error field')
       .end();
     },
-  */
+  
     'Check registration validation  ' : function(browser) { //change values to work
     browser
       .url('https://www.uber.com/fr/fr')
