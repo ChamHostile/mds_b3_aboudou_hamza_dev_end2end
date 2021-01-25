@@ -1,0 +1,28 @@
+{
+  "name": "mds_b3_aboudou_hamza_dev_end2end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chromedriver": "^87.0.7",
+    "nightwatch": "^1.5.1",
+    "selenium-server": "^3.141.59"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChamHostile/mds_b3_aboudou_hamza_dev_end2end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChamHostile/mds_b3_aboudou_hamza_dev_end2end/issues"
+  },
+  "homepage": "https://github.com/ChamHostile/mds_b3_aboudou_hamza_dev_end2end#readme"
+}
